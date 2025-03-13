@@ -6,14 +6,7 @@ Bienvenue sur le projet **Boutique CRUD Green IT**, une application web optimis�
 
 ### 🛠️ Prérequis
 - [Node.js](https://nodejs.org) installé sur votre machine
-- [MySQL](https://www.mysql.com/) pour la base de données
-
-### 📂 Cloner le dépôt
-
-```bash
-git clone <url-du-depot>
-cd projet-greenit
-```
+- [MySQL](https://www.mysql.com/) pour la base de données`
 
 ### 🌐 Lancer le Frontend
 
