@@ -1,0 +1,70 @@
+/* 🌱 Conteneur principal */
+.ajouter-produit-container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* 🌱 Titre */
+.ajouter-produit-container h2 {
+    color: #2d6a4f;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+/* 🌱 Champs de formulaire */
+.ajouter-produit-container input, 
+.ajouter-produit-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #2d6a4f;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* 🌱 Bouton Ajouter */
+.btn-ajouter {
+    width: 100%;
+    padding: 12px;
+    background-color: #40916c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-ajouter:hover {
+    background-color: #2d6a4f;
+}
+
+/* 🌱 Bouton Retour */
+.btn-retour {
+    width: 100%;
+    padding: 12px;
+    background-color: #ccc;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-retour:hover {
+    background-color: #aaa;
+}
+
+/* ✅ Style spécifique pour le champ file */
+.ajouter-produit-container input[type="file"] {
+    border: none;
+    background: white;
+    padding: 0;
+}

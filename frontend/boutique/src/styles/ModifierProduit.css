@@ -1,0 +1,55 @@
+.form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #2d6a4f;
+}
+
+.form-container input, 
+.form-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #2d6a4f;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-container button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #40916c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #2d6a4f;
+}
+
+.btn-retour {
+    margin-top: 15px;
+    background: #ccc;
+    color: black;
+}
+
+.btn-retour:hover {
+    background: #aaa;
+}
+
+input[type="file"] {
+    all: unset !important;  /* Réinitialise tout */
+    display: block !important; /* S'assurer qu'il s'affiche */
+}
+
+
